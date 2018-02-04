@@ -1,0 +1,23 @@
+body,html {
+  height: 100%;
+}
+
+/*navigation*/
+.navLink{
+	color: white;
+}
+
+.navbar-inverse {
+    background:transparent;
+}
+
+
+
+/*header*/
+header {
+  width: 100%;
+  /*height: 100%;*/
+  height:calc(50% - 1px);
+  background: url(../img/hero_bg.jpg) center center no-repeat;
+  background-size: cover;
+}
