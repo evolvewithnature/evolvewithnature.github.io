@@ -6,12 +6,9 @@ body,html {
 .navLink{
 	color: white;
 }
-
 .navbar-inverse {
     background:transparent;
 }
-
-
 
 /*header*/
 header {
@@ -20,4 +17,9 @@ header {
   height:calc(50% - 1px);
   background: url(../img/hero_bg.jpg) center center no-repeat;
   background-size: cover;
+}
+
+/*contact section*/
+.display-none {
+  display: none;
 }
