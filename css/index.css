@@ -6,7 +6,12 @@ body,html {
 .navLink{
 	color: white;
 }
-.navbar-inverse {
+
+/*.navbar-inverse {
+    background:transparent;
+}*/
+
+#myNavbar{
     background:transparent;
 }
 
@@ -19,6 +24,17 @@ header {
   background-size: cover;
 }
 
+/*colors for the different sections */
+#about {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#vision {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#objectives {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#benefits2column {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#benefits1 {height:500px;color: #fff; background-color: #00bcd4;}
+#benefits2 {height:500px;color: #fff; background-color: #009688;}
+#milestones {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#support {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#contact {padding-top:50px;height:700px;color: #fff; background-color: #ff9800;}
+#footer{padding-top:50px;color: #fff; background-color: black;}
 /*contact section*/
 .display-none {
   display: none;
