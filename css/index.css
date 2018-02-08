@@ -7,14 +7,6 @@ body,html {
 	color: white;
 }
 
-/*.navbar-inverse {
-    background:transparent;
-}*/
-
-#myNavbar{
-    background:transparent;
-}
-
 /*header*/
 header {
   width: 100%;
@@ -28,7 +20,7 @@ header {
 #about {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
 #vision {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
 #objectives {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#benefits2column {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#benefits2column {padding-bottom:50px;color: #fff; background-color: #1E88E5;}
 #benefits1 {height:500px;color: #fff; background-color: #00bcd4;}
 #benefits2 {height:500px;color: #fff; background-color: #009688;}
 #milestones {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
