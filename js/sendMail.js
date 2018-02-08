@@ -10,7 +10,7 @@ $(document).ready(function() {
     } else {
       $.ajax({
         method: 'POST',
-        url: '//formspree.io/sharad.sriram@gmail.com',
+        url: '//formspree.io/evolvewithnature@gmail.com',
         data: $('#contact-form').serialize(),
         datatype: 'json'
       });
