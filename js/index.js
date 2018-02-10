@@ -1,3 +1,4 @@
+//Sending emails using the formspree API
 $(document).ready(function() {
   $('#contact-form').submit(function(e) {
     var name    = document.getElementById('inputName')

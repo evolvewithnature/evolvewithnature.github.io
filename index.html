@@ -16,19 +16,35 @@
 	<link rel="stylesheet" href="css/index.css">
 
 
-    <!-- Load Javascript files> -->
-    <script type="text/javascript" src="js/sendMail.js"></script>
+    <!-- Load Javascript files -->
+    <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/alertify.min.js"></script>
 
 </head>
-<body>
+<body data-spy="spyscroll" data-target="#myNavbar">
 
-	<!--Header and Navigation Bar-->
-	<header>
+	<!-- Coming Soon section -->
+	<div class="container-fluid comingsoon">
+		<div class="row text-center">
+			<!--background image added in index.css -->
+				<br><br><br><br><br><br>
+				<h1><strong>Coming Soon!</strong></h1> 
+				<h2>A new school teaching your children to live, love and learn with nature.</h2>
+				<br>
+				<h4>Introducing, Project Name</h4>
+				<br><br><br><br><br><br><br>
+				<br><br><br><br><br><br><br>
+				<!--<button type="button" class="btn btn-primary-outline"></button>-->
+				<div class="btn-group text-center">
+					<button type="button" class="btn btn-primary-outline"><a class="navLink" href="#about"><strong>ABOUT&nbsp;&nbsp;</strong></a>
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</button>
+				</div>
+		</div>
+	</div>
 
-	</header>
-
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<!--Navigation Bar-->
+	<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -39,8 +55,7 @@
 				<a class="navbar-brand navLink" href="#"><span class="glyphicon glyphicon-globe"></span> Project: Purpose of Life</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#">Home</a></li>
+				<ul class="nav navbar-nav navbar-right" role="tablist">
 					<li><a href="#about">About</a></li>
 					<li><a href="#vision">Vision</a></li>
 					<li><a href="#objectives">Objectives</a></li>

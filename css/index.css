@@ -1,19 +1,54 @@
-body,html {
+html{
   height: 100%;
 }
 
-/*navigation*/
-.navLink{
-	color: white;
+body {
+  height: 100%;
+  /*additonal components for scrollspy to work on navigation*/
+  position: relative;
+  overflow-y: scroll;
 }
 
-/*header*/
-header {
+/*coming soon section*/
+.comingsoon {
   width: 100%;
-  /*height: 100%;*/
-  height:calc(50% - 1px);
+  height:100%;
   background: url(../img/hero_bg.jpg) center center no-repeat;
   background-size: cover;
+}
+
+.comingsoon > .row >h1,h2,h4{
+  color: white;
+}
+
+.comingsoon > .btn-group >button{
+
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+/*navigation*/
+nav{
+
+}
+
+/*relative navigation - keeps the navbar on top while you scroll the page*/
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.navLink{
+	color: white; /*font color is white for the hyperlinks*/
 }
 
 /*colors for the different sections */
