@@ -31,21 +31,21 @@ body {
   color: white;
 }
 
-/*navigation*/
-nav{
+/*Navigation*/
 
-}
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
 
-/*relative navigation - keeps the navbar on top while you scroll the page*/
-.affix {
-    top: 0;
-    width: 100%;
-    z-index: 9999 !important;
-}
-
-.affix + .container-fluid {
-    padding-top: 70px;
-}
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
 
 .navLink{
 	color: white; /*font color is white for the hyperlinks*/
@@ -62,7 +62,14 @@ nav{
 #support {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
 #contact {padding-top:50px;height:700px;color: #fff; background-color: #ff9800;}
 #footer{padding-top:50px;color: #fff; background-color: black;}
+
 /*contact section*/
 .display-none {
   display: none;
+}
+
+/*footer*/
+.footer {
+  background: #061D25;
+  padding: 10px 0;
 }

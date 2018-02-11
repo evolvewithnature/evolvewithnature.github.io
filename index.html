@@ -15,13 +15,8 @@
 	<!-- Custom CSS for additional styling-->
 	<link rel="stylesheet" href="css/index.css">
 
-
-    <!-- Load Javascript files -->
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/alertify.min.js"></script>
-
 </head>
-<body data-spy="spyscroll" data-target="#myNavbar">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 	<!-- Coming Soon section -->
 	<div class="container-fluid comingsoon">
@@ -45,17 +40,17 @@
 
 	<!--Navigation Bar-->
 	<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>                        
-				</button>
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>                        
+	      </button>
 				<a class="navbar-brand navLink" href="#"><span class="glyphicon glyphicon-globe"></span> Ankuram</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right" role="tablist">
+				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#about">About</a></li>
 					<li><a href="#vision">Vision</a></li>
 					<li><a href="#objectives">Objectives</a></li>
@@ -188,17 +183,16 @@
     <!--/Page content ends-->
 
     <!--Footer with copyrights-->
-    <footer id="footer">
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-xs-6">
-	                <p>Copyright &copy;2018 by Website Team, Project</p>
-	            </div>
-	        </div>
-	    </div>
+    <footer class="footer">
+      <div class="container text-center">
+			<p>Copyright &copy;2018 by Website Team, Project</p>
+      </div>
     </footer>
 
-
+    <!-- Load Javascript files -->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/sendMail.js"></script>
+    <script type="text/javascript" src="js/alertify.min.js"></script>
 
 </body>
 </html>
