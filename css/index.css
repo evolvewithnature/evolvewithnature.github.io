@@ -52,15 +52,24 @@ body {
 }
 
 /*colors for the different sections */
-#about {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-#vision {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#objectives {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#benefits2column {padding-bottom:50px;color: #fff; background-color: #1E88E5;}
-#benefits1 {height:500px;color: #fff; background-color: #00bcd4;}
-#benefits2 {height:500px;color: #fff; background-color: #009688;}
-#milestones {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-#support {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#contact {padding-top:50px;height:700px;color: #fff; background-color: #ff9800;}
+#about {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;overflow:hidden;
+height:1%;}
+#vision {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;overflow:hidden;
+height:1%;}
+#objectives {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;overflow:hidden;
+height:1%;}
+#benefits2column {padding-bottom:50px;color: #fff; background-color: #1E88E5;overflow:hidden;
+height:1%;}
+#benefits1 {height:500px;color: #fff; background-color: #00bcd4;overflow:hidden;
+height:1%;}
+#benefits2 {height:500px;color: #fff; background-color: #009688;overflow:hidden;
+height:1%;}
+#milestones {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;overflow:hidden;
+height:1%;}
+#support {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;overflow:hidden;
+height:1%;}
+#contact {padding-top:50px;height:700px;color: #fff; background-color: #ff9800;overflow:hidden;
+height:1%;}
 #footer{padding-top:50px;color: #fff; background-color: black;}
 
 /*contact section*/
