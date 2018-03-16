@@ -13,3 +13,10 @@ The official website for the Ankuram project
 3. add the logo when Prem finishes the same
 4. add the PPT when it is done
 5. write the documentation for the code as Wiki [Sharad]
+
+### Contribution Guidelines
+1. Create an issue with the code contribution you are making
+2. Assign it to @sharadshriram
+3. Create a new branch and work - once you are happy send a pull request
+4. No commits or changes on the master branch
+5. No self-merges of pull requests
